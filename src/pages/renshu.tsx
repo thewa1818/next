@@ -24,7 +24,7 @@ const renshu = () => {
     calories: 600,
   };
 
-  //継承して新しい型を作られる
+  //継承して新しい型を作れる
   interface SideMenu extends Gyudon {
     topping: "明太子" | "マヨネーズ" | "生卵";
   }

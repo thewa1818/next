@@ -13,7 +13,6 @@ const data: NewsData[] = [
     id: "2",
     title: "2番目のデータ",
   },
-  ,
   {
     id: "3",
     title: "3番目のデータ",

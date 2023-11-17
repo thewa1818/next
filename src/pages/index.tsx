@@ -20,6 +20,10 @@ const Button = styled.div<Aaa>`
   border: 1px solid #ccc;
   border-radius: 4px;
   margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   ${({ bgColor }) => {
     switch (bgColor) {
