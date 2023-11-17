@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -226,4 +226,19 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.catImage {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 30px auto;
+  display: block;
+}
+
+.btn {
+  width: 200px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
 }
