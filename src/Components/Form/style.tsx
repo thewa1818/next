@@ -22,7 +22,7 @@ export const StyledButton = styled.button`
   justify-content: center;
   border-radius: 4px;
   background: none;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
 
   &:hover {
     cursor: pointer;
