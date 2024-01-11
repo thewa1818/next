@@ -2,6 +2,14 @@ import Head from "next/head";
 import React from "react";
 import { useRouter } from "next/router";
 import { NewsData } from "@/types/news";
+import stylex from "@ladifire-opensource/stylex";
+
+const styles = stylex.create({
+  aaa: {
+    fontWeight: 700,
+    color: "red",
+  },
+});
 
 const data: NewsData[] = [
   {
@@ -45,6 +53,7 @@ const news = () => {
 
       <button onClick={test}>TOPへ戻る</button>
       <button onClick={next}>自習ページ</button>
+      <div className={stylex(styles.aaa)}>Component</div>
     </>
   );
 };

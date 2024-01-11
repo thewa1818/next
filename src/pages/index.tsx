@@ -1,3 +1,4 @@
+"use client";
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
@@ -61,6 +62,10 @@ export default function Home() {
     router.push("news");
   };
 
+  const List = () => {
+    router.push("/list");
+  };
+
   return (
     <>
       <Head>
@@ -78,6 +83,7 @@ export default function Home() {
         <Button bgColor="done" onClick={test} className={styles.btn}>
           押して変化
         </Button>
+        <button onClick={List}>課題</button>
       </div>
     </>
   );
